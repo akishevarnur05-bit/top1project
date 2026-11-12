@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e87e80b9800bf40aa00efc13cd0e8e, type: 3}
+  m_Name: RootkitUltimate
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Enemies.VirusDefinition
+  displayName: ROOTKIT ULTIMATE
+  color: {r: 0.6, g: 0.2, b: 1, a: 1}
+  size: {x: 1, y: 1.85}
+  animations: {fileID: 11400000, guid: f289e5e351914b7a9d8364a49ce4b5aa, type: 2}
+  spriteTint: {r: 1, g: 1, b: 1, a: 1}
+  maxHealth: 220
+  moveSpeed: 3.6
+  canJump: 1
+  jumpVelocity: 12
+  jumpCooldown: 1.2
+  attackRange: 1.4
+  attackDamage: 11
+  windup: 0.5
+  recovery: 0.35
+  attackCooldown: 0.9
+  knockback: 5
+  hitStun: 0.35
+  comboArmorHits: 3
+  special: 3
+  specialCooldown: 4.5
+  specialPower: 0
+  voicePitch: 0.5
+  voiceGrit: 0.6

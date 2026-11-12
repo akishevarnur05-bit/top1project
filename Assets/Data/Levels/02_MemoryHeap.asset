@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca176ec26856ae4285a60065a0509c5, type: 3}
+  m_Name: 02_MemoryHeap
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Tower.LevelDefinition
+  layout: '..........--..........
+
+    .......--....--.......
+
+    ....---........---....
+
+    .....============.....'
+  rowHeight: 1.5
+  platformThickness: 0.35
+  solidThickness: 1.6
+  blastMarginX: 7
+  blastDepth: 8
+  blastHeight: 14
+  spawnSpread: 4
+  theme: 2
+  backgroundColor: {r: 0.03, g: 0.08, b: 0.07, a: 1}
+  platformColor: {r: 0.3, g: 1, b: 0.6, a: 1}
+  groundColor: {r: 0.15, g: 0.75, b: 0.45, a: 1}
+  platformSprite: {fileID: 0}
+  groundSprite: {fileID: 0}
+  backgroundLayers: []

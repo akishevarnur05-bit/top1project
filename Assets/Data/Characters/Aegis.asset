@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a033f99ece1944eba68143ae695424, type: 3}
+  m_Name: Aegis
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Player.CharacterDefinition
+  displayName: AEGIS
+  role: "\u0410\u043D\u0442\u0438\u0432\u0438\u0440\u0443\u0441 \xB7 \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043B"
+  description: "\u0421\u0431\u0430\u043B\u0430\u043D\u0441\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0439 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A \u044F\u0434\u0440\u0430. \u0420\u043E\u0432\u043D\u044B\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438 \u2014 \u043B\u0443\u0447\u0448\u0438\u0439 \u0432\u044B\u0431\u043E\u0440 \u0434\u043B\u044F \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u0448\u0442\u0443\u0440\u043C\u0430 \u0431\u0430\u0448\u043D\u0438."
+  color: {r: 0.2, g: 1, b: 0.45, a: 1}
+  visorColor: {r: 0.8, g: 1, b: 1, a: 1}
+  size: {x: 0.9, y: 1.4}
+  animations: {fileID: 11400000, guid: 4cbfca12ffe29c54791d9f1e804712f7, type: 2}
+  maxHealth: 100
+  moveSpeed: 7
+  jumpVelocity: 12
+  lightDamage: 5
+  lightDuration: 0.25
+  heavyDamage: 12
+  heavyDuration: 0.55
+  heavyPush: 6
+  blockDamageMultiplier: 0.2
+  energyGainMultiplier: 1
+  firewallDuration: 5
+  purgeDamageFraction: 0.35

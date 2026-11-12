@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a454c26cb88b5ff46b120c9e8701ad6e, type: 3}
+  m_Name: 1 Biker_Animations
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Visuals.SpriteAnimationSet
+  idle:
+    name: Biker_idle
+    frames:
+    - {fileID: -5983829796076642633, guid: 517bcc2088693dd4080d6febdf5253a1, type: 3}
+    - {fileID: 4696598302617633707, guid: 517bcc2088693dd4080d6febdf5253a1, type: 3}
+    - {fileID: -5103284502500407639, guid: 517bcc2088693dd4080d6febdf5253a1, type: 3}
+    - {fileID: 754712358208520195, guid: 517bcc2088693dd4080d6febdf5253a1, type: 3}
+    fps: 8
+    loop: 1
+  move:
+    name: Biker_run
+    frames:
+    - {fileID: -6885204655443617508, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    - {fileID: 2733411538607664729, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    - {fileID: -996725666941244734, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    - {fileID: -3200739673787295879, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    - {fileID: 7706366097418016394, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    - {fileID: -1640838514953923799, guid: 9b99342265c8acb4c919a3b6555bd88b, type: 3}
+    fps: 12
+    loop: 1
+  jump:
+    name: Biker_jump
+    frames:
+    - {fileID: 1759305897389522060, guid: 709cb545c2231a3468c9490abb7a13d6, type: 3}
+    - {fileID: 2262067972297611351, guid: 709cb545c2231a3468c9490abb7a13d6, type: 3}
+    - {fileID: 613384499492409067, guid: 709cb545c2231a3468c9490abb7a13d6, type: 3}
+    - {fileID: -4370708139186805726, guid: 709cb545c2231a3468c9490abb7a13d6, type: 3}
+    fps: 10
+    loop: 0
+  lightAttack:
+    name: Biker_punch
+    frames:
+    - {fileID: -5842001304501793475, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    - {fileID: -2847846137512738245, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    - {fileID: -2304513123721310605, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    - {fileID: -3639390758635756496, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    - {fileID: 3728070499156513492, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    - {fileID: 8778682668322408095, guid: 1b30377365edd6a43a0cb93a0efebead, type: 3}
+    fps: 12
+    loop: 0
+  heavyAttack:
+    name: Biker_attack2
+    frames:
+    - {fileID: -4031836037746054763, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: -7125537968008836086, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: -91767655912678345, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: 8310617744573221040, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: 8442154766965575035, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: -5269994880597805932, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: 674375574728361627, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    - {fileID: -702457132285767491, guid: 8b12caf4e4f379b4ebfa5d80e7fedf5e, type: 3}
+    fps: 12
+    loop: 0
+  block:
+    name: 
+    frames: []
+    fps: 12
+    loop: 0
+  hurt:
+    name: Biker_hurt
+    frames:
+    - {fileID: -7931485583678732457, guid: 96ee189c00904624188908c02c9b9892, type: 3}
+    - {fileID: 3766465679293299416, guid: 96ee189c00904624188908c02c9b9892, type: 3}
+    fps: 12
+    loop: 0
+  super:
+    name: Biker_attack3
+    frames:
+    - {fileID: -2524872763269659818, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: -7536582891728478263, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: -3679802467370308188, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: 3138824918715980329, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: 8285418080512121836, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: 4641271593238059128, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: -6831459816058306994, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    - {fileID: 1502165100094363419, guid: 1dc54dd919c3ebd4692b7bb7ef2b7638, type: 3}
+    fps: 12
+    loop: 0
+  death:
+    name: Biker_death
+    frames:
+    - {fileID: -6733904443588837131, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    - {fileID: 1511901896413125822, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    - {fileID: -3319166546031364593, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    - {fileID: -8522668254417121615, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    - {fileID: 1495159094570878551, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    - {fileID: 822121916323975250, guid: 7dd7cc80c6f44574aa68e9e7dbc707da, type: 3}
+    fps: 10
+    loop: 0
+  facesRight: 1
+  scale: 1.13
+  offset: {x: 0.54, y: 0}

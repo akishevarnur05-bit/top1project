@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a454c26cb88b5ff46b120c9e8701ad6e, type: 3}
+  m_Name: 3 Cyborg_Animations
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Visuals.SpriteAnimationSet
+  idle:
+    name: Cyborg_idle
+    frames:
+    - {fileID: 9131550262635958815, guid: 8330445d28fde0d45a95140d672ed934, type: 3}
+    - {fileID: -6617867028772013411, guid: 8330445d28fde0d45a95140d672ed934, type: 3}
+    - {fileID: 8367856923240273838, guid: 8330445d28fde0d45a95140d672ed934, type: 3}
+    - {fileID: 988723577558695180, guid: 8330445d28fde0d45a95140d672ed934, type: 3}
+    fps: 8
+    loop: 1
+  move:
+    name: Cyborg_run
+    frames:
+    - {fileID: 7067203821837159371, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    - {fileID: -2794210507929615413, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    - {fileID: 8908897022904079941, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    - {fileID: -7639635974523863291, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    - {fileID: 1662042847702385470, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    - {fileID: -3906383742671190534, guid: 29120248ed74093439478baf63cbf9f9, type: 3}
+    fps: 12
+    loop: 1
+  jump:
+    name: Cyborg_jump
+    frames:
+    - {fileID: -5051458261396293880, guid: 73307e0abec767442a8f735d8dfa3039, type: 3}
+    - {fileID: -8377203752466997113, guid: 73307e0abec767442a8f735d8dfa3039, type: 3}
+    - {fileID: 7867010546670737116, guid: 73307e0abec767442a8f735d8dfa3039, type: 3}
+    - {fileID: -3717853983354753292, guid: 73307e0abec767442a8f735d8dfa3039, type: 3}
+    fps: 10
+    loop: 0
+  lightAttack:
+    name: Cyborg_punch
+    frames:
+    - {fileID: -7496165343941284319, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    - {fileID: -2856278128799947297, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    - {fileID: -1741621649980990440, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    - {fileID: 5491821353094910874, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    - {fileID: -6809277186526622548, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    - {fileID: 6850000832049711698, guid: 02d86d7dac91826499ef71aaaf9481a7, type: 3}
+    fps: 12
+    loop: 0
+  heavyAttack:
+    name: Cyborg_attack2
+    frames:
+    - {fileID: -4354373800421928644, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: 2196150405487763722, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: -8512738310882828155, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: 977710177024586179, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: 2563493478105022328, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: 3462030860467688406, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: -4659360068862517113, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    - {fileID: -5694091503911109336, guid: bca184e8141ee9548aa2f026d9024ae0, type: 3}
+    fps: 12
+    loop: 0
+  block:
+    name: 
+    frames: []
+    fps: 12
+    loop: 0
+  hurt:
+    name: Cyborg_hurt
+    frames:
+    - {fileID: -2823060461677638218, guid: c0ae6d8e52b32814683b4b3700d78183, type: 3}
+    - {fileID: -5334179077830072600, guid: c0ae6d8e52b32814683b4b3700d78183, type: 3}
+    fps: 12
+    loop: 0
+  super:
+    name: Cyborg_attack3
+    frames:
+    - {fileID: -6230078719533156055, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: 2608652223943509622, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: 2263489319292526004, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: -8725892067329141155, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: 107352237899647753, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: -4928029068999811163, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: 3034922989247494820, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    - {fileID: -3281194701607295597, guid: a3922de171836d74e9c9959334fd2d70, type: 3}
+    fps: 12
+    loop: 0
+  death:
+    name: Cyborg_death
+    frames:
+    - {fileID: -8494650496710370908, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    - {fileID: 5243357565447243468, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    - {fileID: 5435926790167498106, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    - {fileID: 6909392847090249341, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    - {fileID: -573607203432674997, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    - {fileID: 1001567684172968856, guid: 8e5e77aacbada644aa45e0d1c4b93b85, type: 3}
+    fps: 10
+    loop: 0
+  facesRight: 1
+  scale: 1
+  offset: {x: 0.52, y: 0}

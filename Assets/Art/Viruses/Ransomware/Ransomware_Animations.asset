@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a454c26cb88b5ff46b120c9e8701ad6e, type: 3}
+  m_Name: Ransomware_Animations
+  m_EditorClassIdentifier: 
+  idle:
+    name: Idle
+    frames:
+    - {fileID: -8381659573352531839, guid: ed2d7934e927b1b43bb718d253f579c6, type: 3}
+    - {fileID: -2756498017462300822, guid: ed2d7934e927b1b43bb718d253f579c6, type: 3}
+    - {fileID: -6714146255402601037, guid: ed2d7934e927b1b43bb718d253f579c6, type: 3}
+    - {fileID: -4914351600739261391, guid: ed2d7934e927b1b43bb718d253f579c6, type: 3}
+    fps: 8
+    loop: 1
+  move:
+    name: Walk
+    frames:
+    - {fileID: -95026768748765244, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    - {fileID: 8866919437582257738, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    - {fileID: -7923221114941991851, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    - {fileID: 8232121291649219200, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    - {fileID: 5907391905570043736, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    - {fileID: -1156535452901077130, guid: aa579d40fa9359f41bd9512698e374e1, type: 3}
+    fps: 12
+    loop: 1
+  jump:
+    name: 
+    frames: []
+    fps: 10
+    loop: 0
+  lightAttack:
+    name: Attack1
+    frames:
+    - {fileID: 3446887211239207684, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: 7652277953379876325, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: 3585788685948743496, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: -1391550580781374737, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: -2895066430350966677, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: 8619784148326107393, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: -6002967310670851988, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    - {fileID: 3856062040785121766, guid: cfef52a6b81539a409c6607c964c21d1, type: 3}
+    fps: 12
+    loop: 0
+  heavyAttack:
+    name: Attack2
+    frames:
+    - {fileID: -7813612966794843386, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    - {fileID: -6686927657663223810, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    - {fileID: 7133913212912634572, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    - {fileID: -8864217293626393872, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    - {fileID: -3037829545252432895, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    - {fileID: 3718749423082174583, guid: 7da5a189765b8464fb85982e3b96b9ab, type: 3}
+    fps: 12
+    loop: 0
+  block:
+    name: 
+    frames: []
+    fps: 12
+    loop: 0
+  hurt:
+    name: Hurt
+    frames:
+    - {fileID: -1927221007124889022, guid: 7da5c78f2b0ea8144812de5d6d9a33ce, type: 3}
+    - {fileID: 3760689703624587115, guid: 7da5c78f2b0ea8144812de5d6d9a33ce, type: 3}
+    fps: 12
+    loop: 0
+  super:
+    name: Attack3
+    frames:
+    - {fileID: 1354227926753485467, guid: 605b52cbc1ed59440b4c46441d7e3ad1, type: 3}
+    - {fileID: 7928349267065327584, guid: 605b52cbc1ed59440b4c46441d7e3ad1, type: 3}
+    - {fileID: -3148845040161366435, guid: 605b52cbc1ed59440b4c46441d7e3ad1, type: 3}
+    - {fileID: 1226303240598252721, guid: 605b52cbc1ed59440b4c46441d7e3ad1, type: 3}
+    fps: 12
+    loop: 0
+  death:
+    name: Death
+    frames:
+    - {fileID: -6383721353914289219, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    - {fileID: -6739904583549637803, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    - {fileID: -2311915570953028793, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    - {fileID: 7648471443554034476, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    - {fileID: -5875954188570477815, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    - {fileID: -6076070891331447687, guid: b9bd8b23412aab7468f9b9828fec87f5, type: 3}
+    fps: 10
+    loop: 0
+  facesRight: 1
+  scale: 1.15
+  offset: {x: 0.03, y: 0}

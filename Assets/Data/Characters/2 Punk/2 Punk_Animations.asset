@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a454c26cb88b5ff46b120c9e8701ad6e, type: 3}
+  m_Name: 2 Punk_Animations
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Visuals.SpriteAnimationSet
+  idle:
+    name: Punk_idle
+    frames:
+    - {fileID: -8767945427765830437, guid: be689214185231349b49248f86b28e70, type: 3}
+    - {fileID: -5770339319476340849, guid: be689214185231349b49248f86b28e70, type: 3}
+    - {fileID: -1982115385706750205, guid: be689214185231349b49248f86b28e70, type: 3}
+    - {fileID: -3519770145844921396, guid: be689214185231349b49248f86b28e70, type: 3}
+    fps: 8
+    loop: 1
+  move:
+    name: Punk_run
+    frames:
+    - {fileID: -1292513591916587123, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    - {fileID: -3763922017841648582, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    - {fileID: -5232470070162052547, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    - {fileID: -5189766450143116454, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    - {fileID: -6093030146318980467, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    - {fileID: 6536103271880690855, guid: 26ed8903bdd39c843b96425f596dd925, type: 3}
+    fps: 12
+    loop: 1
+  jump:
+    name: Punk_jump
+    frames:
+    - {fileID: 1365264432905831842, guid: ca4dd75527291684e86648fd445175e8, type: 3}
+    - {fileID: 4421009795029100748, guid: ca4dd75527291684e86648fd445175e8, type: 3}
+    - {fileID: -7190622309883540868, guid: ca4dd75527291684e86648fd445175e8, type: 3}
+    - {fileID: 613548611924732007, guid: ca4dd75527291684e86648fd445175e8, type: 3}
+    fps: 10
+    loop: 0
+  lightAttack:
+    name: Punk_punch
+    frames:
+    - {fileID: 398663702455236510, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    - {fileID: -1587373125645428096, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    - {fileID: -3330850583675109382, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    - {fileID: 5394609560398917907, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    - {fileID: -8266226637598898183, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    - {fileID: 1018007361100830127, guid: 0afbb1dab06369c49877617542233ced, type: 3}
+    fps: 12
+    loop: 0
+  heavyAttack:
+    name: Punk_attack2
+    frames:
+    - {fileID: -2405723587101174512, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: 9069360697648203532, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -5422329814741214067, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -2207669812100945510, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -21561929618335681, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -3959597978303993633, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -7474678147953796021, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    - {fileID: -3654443205855220189, guid: 0a2d6bf10021eb64a9a22eab26eb2dd7, type: 3}
+    fps: 12
+    loop: 0
+  block:
+    name: 
+    frames: []
+    fps: 12
+    loop: 0
+  hurt:
+    name: Punk_hurt
+    frames:
+    - {fileID: -122376638470998139, guid: 16e71eaef42ae5d44bfef9ad04121c3f, type: 3}
+    - {fileID: 1027513474329753929, guid: 16e71eaef42ae5d44bfef9ad04121c3f, type: 3}
+    fps: 12
+    loop: 0
+  super:
+    name: Punk_attack3
+    frames:
+    - {fileID: -6042315668161030261, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: -8519734939690030017, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: -2254572833490194824, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: 7711332202880137927, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: 7135340225316072713, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: -470518850536520730, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: 1072962480675776347, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    - {fileID: -3404098691152142983, guid: f5b0e88228eaaf04f837512fefcd2260, type: 3}
+    fps: 12
+    loop: 0
+  death:
+    name: Punk_death
+    frames:
+    - {fileID: 6920743709334427553, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    - {fileID: 8582602958902867973, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    - {fileID: -1814125732946672419, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    - {fileID: 1378011048463198548, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    - {fileID: 7654338981266606801, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    - {fileID: -1243871973720602159, guid: 9cb1d8e89795e924e87bdf58a529c4a4, type: 3}
+    fps: 10
+    loop: 0
+  facesRight: 1
+  scale: 0.88
+  offset: {x: 0.42, y: 0}

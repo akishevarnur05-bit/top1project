@@ -1,0 +1,5 @@
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy<2
+vosk==0.3.45
+sounddevice>=0.4.6

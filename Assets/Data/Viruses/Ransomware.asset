@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e87e80b9800bf40aa00efc13cd0e8e, type: 3}
+  m_Name: Ransomware
+  m_EditorClassIdentifier: Assembly-CSharp::CyberDefender.Enemies.VirusDefinition
+  displayName: RANSOMWARE
+  color: {r: 0.9, g: 0.15, b: 0.25, a: 1}
+  size: {x: 1.7, y: 1.6}
+  animations: {fileID: 11400000, guid: 63f84cb14eaf498a9c39985d39184243, type: 2}
+  spriteTint: {r: 1, g: 1, b: 1, a: 1}
+  maxHealth: 110
+  moveSpeed: 2
+  canJump: 1
+  jumpVelocity: 12
+  jumpCooldown: 1.2
+  attackRange: 1.9
+  attackDamage: 13
+  windup: 0.7
+  recovery: 0.6
+  attackCooldown: 1.6
+  knockback: 6
+  hitStun: 0.45
+  comboArmorHits: 2
+  special: 2
+  specialCooldown: 0
+  specialPower: 30
+  voicePitch: 0.75
+  voiceGrit: 0.4
